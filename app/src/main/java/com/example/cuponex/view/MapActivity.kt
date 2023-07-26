@@ -1,9 +1,9 @@
-package com.example.cuponex
+package com.example.cuponex.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.cuponex.R
 import com.example.cuponex.databinding.ActivityMapBinding
-import com.google.android.gms.maps.CameraUpdate
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback

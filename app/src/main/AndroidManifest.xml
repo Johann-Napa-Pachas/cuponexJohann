@@ -6,6 +6,7 @@
             android:name="android.hardware.camera"
             android:required="true" />
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission
             android:name="android.permission.WRITE_EXTERNAL_STORAGE"
@@ -21,16 +22,16 @@
             android:theme="@style/Theme.Cuponex"
             tools:targetApi="31">
         <activity
-                android:name=".MapActivity"
+                android:name=".view.MapActivity"
                 android:exported="false" />
         <activity
-                android:name=".AddCouponActivity"
+                android:name=".view.AddCouponActivity"
                 android:exported="false" />
         <activity
-                android:name=".LoginActivity"
+                android:name=".view.LoginActivity"
                 android:exported="false" />
         <activity
-                android:name=".SplashScreenActivity"
+                android:name=".view.SplashScreenActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".MainActivity"
+                android:name=".view.MainActivity"
                 android:exported="true" />
 
         <meta-data

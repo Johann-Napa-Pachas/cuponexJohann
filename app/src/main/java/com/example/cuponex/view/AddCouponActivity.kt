@@ -1,7 +1,6 @@
-package com.example.cuponex
+package com.example.cuponex.view
 
 import android.Manifest
-import android.app.Instrumentation.ActivityResult
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap

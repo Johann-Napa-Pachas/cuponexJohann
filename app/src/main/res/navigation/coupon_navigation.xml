@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/coupon_navigation"
+        app:startDestination="@id/couponListFragment">
+
+    <fragment
+            android:id="@+id/couponFavoriteFragment"
+            android:name="com.example.cuponex.view.fragments.CouponFavoriteFragment"
+            android:label="fragment_coupon_favorite"
+            tools:layout="@layout/fragment_coupon_favorite" >
+        <action
+                android:id="@+id/action_couponFavoriteFragment_to_couponDetailFragment"
+                app:destination="@id/couponDetailFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/couponListFragment"
+            android:name="com.example.cuponex.view.fragments.CouponListFragment"
+            android:label="fragment_coupon_list"
+            tools:layout="@layout/fragment_coupon_list" >
+        <action
+                android:id="@+id/action_couponListFragment_to_couponDetailFragment"
+                app:destination="@id/couponDetailFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/infoFragment"
+            android:name="com.example.cuponex.view.fragments.InfoFragment"
+            android:label="fragment_info"
+            tools:layout="@layout/fragment_info" />
+    <fragment
+            android:id="@+id/couponDetailFragment"
+            android:name="com.example.cuponex.view.fragments.CouponDetailFragment"
+            android:label="fragment_coupon_detail"
+            tools:layout="@layout/fragment_coupon_detail" />
+</navigation>

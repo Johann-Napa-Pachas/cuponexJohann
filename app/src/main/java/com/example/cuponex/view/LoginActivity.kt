@@ -1,10 +1,9 @@
-package com.example.cuponex
+package com.example.cuponex.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
 import com.example.cuponex.databinding.ActivityLoginBinding
 
